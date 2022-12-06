@@ -1,4 +1,4 @@
-with open("Day1/Day1Inputs.txt") as f:
+with open("Day1/Day1Inputs.txt",'r') as f:
     inputs = [line.strip() for line in f.read().split("\n")]
 
 calorieCount = []

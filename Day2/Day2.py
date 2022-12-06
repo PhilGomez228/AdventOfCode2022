@@ -1,4 +1,4 @@
-with open("Day2/Day2Inputs.txt") as f:
+with open("Day2/Day2Inputs.txt", 'r') as f:
     inputs = [lines.strip() for lines in f.readlines()]
     inputs = [line.split() for line in inputs]
 print(inputs)

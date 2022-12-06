@@ -1,5 +1,5 @@
 from string import ascii_lowercase, ascii_uppercase
-with open("Day3/Day3Inputs.txt") as f:
+with open("Day3/Day3Inputs.txt", 'r') as f:
     inputs = [line.strip() for line in f.readlines()]
 count = 1
 itemValues = {}

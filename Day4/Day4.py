@@ -1,4 +1,4 @@
-with open("Day4/Day4Inputs.txt") as f:
+with open("Day4/Day4Inputs.txt", 'r') as f:
     inputs = [line.strip().split(',') for line in f.readlines()]
 
 count = 0
